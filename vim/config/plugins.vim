@@ -2,7 +2,9 @@ call plug#begin()
 
 
 Plug 'airblade/vim-gitgutter' " git gutter
+Plug 'junegunn/vim-emoji' " :-)
 Plug 'itchyny/lightline.vim' "status line
+Plug 'itchyny/vim-cursorword' "status line
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
