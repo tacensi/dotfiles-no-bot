@@ -1,7 +1,4 @@
-execute pathogen#infect()
-filetype plugin indent on
-
-" Change leader to space
+" Change leader to ;
 let mapleader=";"
 
 "" Custom Configs include.
