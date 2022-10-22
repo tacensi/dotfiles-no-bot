@@ -1,0 +1,17 @@
+{
+  "diagnostic.warningSign": "⚠️",
+  "diagnostic.errorSign": "❌",
+  "diagnostic.hintSign": "⚠️",
+  "diagnostic.infoSign": "⚠️",
+  "diagnostic.enable": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "Markdown",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html",
+    "rust"
+  ],
+  "suggest.removeDuplicateItems": true
+}
