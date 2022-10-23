@@ -11,6 +11,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive' " git integration
 Plug 'tpope/vim-eunuch' " file commands inside vim
+Plug 'sheerun/vim-polyglot' " syntax highlighting
 Plug 'tpope/vim-surround' " change surroundings
 
 

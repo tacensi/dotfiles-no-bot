@@ -50,11 +50,14 @@ HIST_STAMPS="yyyy/mm/dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  brew
+  aliases
+  archlinux
   colored-man-pages
   composer
   docker
+  extract
   git
+  hs
   npm
   pip
   sublime
