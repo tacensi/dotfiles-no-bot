@@ -1,0 +1,26 @@
+[alias]
+	last = cat-file commit HEAD
+	#http://www.jukie.net/bart/blog/pimping-out-git-log
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	grep = auto
+	ui = auto
+
+[core]
+	filemode = false
+	eol = lf
+	excludesfile = ~/.gitignore
+	editor = vim
+
+[push]
+	default = simple
+
+[user]
+	email = tacensi@gmail.com
+	name = Thiago Censi
+

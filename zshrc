@@ -57,7 +57,6 @@ plugins=(
   docker
   extract
   git
-  hs
   npm
   pip
   sublime
