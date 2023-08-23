@@ -54,6 +54,7 @@ plugins=(
   aliases
   archlinux
   colored-man-pages
+  common-aliases
   composer
   docker
   extract
