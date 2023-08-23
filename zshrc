@@ -102,3 +102,4 @@ alias vi=vim
 if [ -f ~/.dotfiles/z/zsh.command-not-found ]; then
     . ~/.dotfiles/z/zsh.command-not-found
 fi
+source /usr/share/nvm/init-nvm.sh
