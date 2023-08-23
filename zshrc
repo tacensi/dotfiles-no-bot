@@ -61,6 +61,7 @@ plugins=(
   pip
   sublime
   symfony2
+  thefuck
   wp-cli
   yarn
   z
