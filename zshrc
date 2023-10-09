@@ -13,6 +13,14 @@ ZSH_CUSTOM=$HOME/.dotfiles/z/custom/;
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="tacensi"
 
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n $PS1 ] && \
+    [ -s $BASE16_SHELL/profile_helper.sh ] && \
+        source $BASE16_SHELL/profile_helper.sh
+
+base16_espresso
+
 # System specific configuration
 case `uname` in
 	Darwin)
@@ -67,6 +75,8 @@ plugins=(
   wp-cli
   yarn
   z
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,3 +116,8 @@ if [ -f ~/.dotfiles/z/zsh.command-not-found ]; then
     . ~/.dotfiles/z/zsh.command-not-found
 fi
 source /usr/share/nvm/init-nvm.sh
+
+source $HOME/.dotfiles/z/alias.zsh
+source $HOME/.dotfiles/z/wp.bash
+source $HOME/.dotfiles/z/zsh.command-not-found
+
