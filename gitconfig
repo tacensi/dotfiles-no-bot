@@ -24,3 +24,5 @@
 	email = tacensi@gmail.com
 	name = thiago censi
 
+[init]
+	defaultBranch = main
