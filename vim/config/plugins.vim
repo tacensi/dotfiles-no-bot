@@ -13,6 +13,7 @@ Plug 'tpope/vim-fugitive' " git integration
 Plug 'tpope/vim-eunuch' " file commands inside vim
 Plug 'sheerun/vim-polyglot' " syntax highlighting
 Plug 'tpope/vim-surround' " change surroundings
+Plug 'chriskempson/base16-vim' " base16 colors
 
 
 Plug 'danilo-augusto/vim-afterglow' " neon
