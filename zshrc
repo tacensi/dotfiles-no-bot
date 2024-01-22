@@ -121,3 +121,18 @@ source $HOME/.dotfiles/z/alias.zsh
 source $HOME/.dotfiles/z/wp.bash
 source $HOME/.dotfiles/z/zsh.command-not-found
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+zshexit() {
+  # commands to run here, e.g. if you 
+  # always want to run .zlogout:
+  if [[ ! -o login ]]; then
+     # don't do this in a login shell
+     # because it happens anyway
+     . ~/.zlogout
+  fi
+}
+
