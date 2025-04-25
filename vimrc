@@ -6,4 +6,4 @@ let mapleader=";"
 " differentiate them from 3rd-party libraries.
 runtime! config/**/*
 
-colorscheme base16-espresso
+" colorscheme base16-espresso

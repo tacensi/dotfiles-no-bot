@@ -13,14 +13,6 @@ ZSH_CUSTOM=$HOME/.dotfiles/z/custom/;
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="tacensi"
 
-# Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/"
-[ -n $PS1 ] && \
-    [ -s $BASE16_SHELL/profile_helper.sh ] && \
-        source $BASE16_SHELL/profile_helper.sh
-
-base16_espresso
-
 # System specific configuration
 case `uname` in
 	Darwin)
@@ -47,7 +39,7 @@ SAVEHIST=10000
 setopt appendhistory autocd beep extendedglob
 bindkey -v
 
-HIST_STAMPS="yyyy/mm/dd"
+HIST_STAMPS="%y/%m/%d"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -58,7 +50,6 @@ HIST_STAMPS="yyyy/mm/dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  ag
   aliases
   archlinux
   colored-man-pages
@@ -67,6 +58,8 @@ plugins=(
   docker
   extract
   git
+  git-commit
+  kitty
   npm
   pip
   sublime
@@ -75,8 +68,6 @@ plugins=(
   wp-cli
   yarn
   z
-  zsh-autosuggestions
-  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -115,7 +106,6 @@ alias vi=vim
 if [ -f ~/.dotfiles/z/zsh.command-not-found ]; then
     . ~/.dotfiles/z/zsh.command-not-found
 fi
-source /usr/share/nvm/init-nvm.sh
 
 source $HOME/.dotfiles/z/alias.zsh
 source $HOME/.dotfiles/z/wp.bash
