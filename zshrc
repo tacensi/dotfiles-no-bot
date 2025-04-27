@@ -13,26 +13,6 @@ ZSH_CUSTOM=$HOME/.dotfiles/z/custom/;
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="tacensi"
 
-# System specific configuration
-case `uname` in
-	Darwin)
-		# commands for OS X go here
-		# Path to your oh-my-zsh installation.
-		export ZSH="$HOME/.oh-my-zsh"
-		# Canary Alias
-		alias canary="open -a Google\ Chrome\ Canary --args --disable-web-security --user-data-dir=$HOME/profile-folder-name"
-	;;
-	Linux)
-		# commands for Linux go here
-		# Path to your oh-my-zsh installation.
-		export ZSH="$HOME/.oh-my-zsh"
-		# ABNT layout
-		# setxkbmap -model abnt2 -layout br -variant abnt2
-		setxkbmap us -variant intl
-	;;
-esac
-
-
 HISTFILE=~/.histfile
 HISTSIZE=5000
 SAVEHIST=10000
