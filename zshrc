@@ -3,6 +3,7 @@
 export PATH=$HOME/.config/composer/vendor/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.npm/bin:$PATH
+export ZSH=~/.oh-my-zsh
 
 # Set a different custom folder to OhMyZShell
 ZSH_CUSTOM=$HOME/.dotfiles/z/custom/;
@@ -39,6 +40,7 @@ plugins=(
   extract
   git
   git-commit
+  gitignore
   kitty
   npm
   pip
