@@ -41,5 +41,5 @@ RPROMPT=''
 
 PROMPT='%{%f%k%b%}
 $(_print_lines) [%D %T]%{%f%}
-%B› %1~ %{%B%F{green}%}$(git_prompt_info)%E%{%f%k%b%}
+%B› %n@%m » %1~ %{%B%F{green}%}$(git_prompt_info)%E%{%f%k%b%}
 %{%K{${bkg}}%}$(_prompt_char)%{%K{${bkg}}%} %#%{%f%k%b%} '
