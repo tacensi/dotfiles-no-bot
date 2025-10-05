@@ -1,2 +1,2 @@
-z/.zshenv
+z/.zshenv filter=git-crypt diff=git-crypt
 
