@@ -89,6 +89,7 @@ if [ -f ~/.dotfiles/z/zsh.command-not-found ]; then
     . ~/.dotfiles/z/zsh.command-not-found
 fi
 
+source $HOME/.dotfiles/z/.zshenv
 source $HOME/.dotfiles/z/alias.zsh
 source $HOME/.dotfiles/z/wp.bash
 source $HOME/.dotfiles/z/zsh.command-not-found
@@ -108,3 +109,5 @@ zshexit() {
   fi
 }
 
+
+if [ -e /home/tacensi/.nix-profile/etc/profile.d/nix.sh ]; then . /home/tacensi/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
