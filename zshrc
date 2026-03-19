@@ -4,6 +4,7 @@ export PATH=$HOME/.config/composer/vendor/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.npm/bin:$PATH
 export ZSH=~/.oh-my-zsh
+export GTK_IM_MODULE=ibus
 
 # Set a different custom folder to OhMyZShell
 ZSH_CUSTOM=$HOME/.dotfiles/z/custom/;
